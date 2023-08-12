@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<style>
+  body {
+    background-color: #b95353;
+  }
+  .container {
+    background-color: #ccc7c7;
+  }
+  h1 {
+    color: #333;
+  }
+  label {
+    display: block;
+    font-weight: bold;
+  }
+  input,
+  textarea {
+    border: 1px solid #ccc;
+  }
+  textarea {
+    resize: vertical;
+  }
+button {
+    background-color: #15dda1;
+    color: white;
+  }
+  button:hover {
+    background-color: #2980b9;
+  }
+</style>
+<title>Contact Form</title>
+</head>
+<body>
+    <h1>Contact Us</h1>
+    <form action="#" method="post">
+      <label for="firstName">First Name</label>
+      <input type="text" id="firstName" name="firstName" required><br>
+      <label for="lastName">Last Name</label>
+      <input type="text" id="lastName" name="lastName" required><br>
+      <label for="dob">Date of Birth</label>
+      <input type="date" id="dob" name="dob" required><br>
+      <label for="email">Email</label>
+      <input type="email" id="email" name="email" required><br>
+      <label for="contactNumber">Contact Number</label>
+      <input type="tel" id="contactNumber" name="contactNumber" required><br>
+      <label for="message">Message</label>
+      <textarea id="message" name="message" rows="4" required></textarea><br>
+      <button type="submit">Submit</button><br>
+    </form>
+  </div>
+</body>
+</html>
